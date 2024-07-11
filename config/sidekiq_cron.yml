@@ -1,0 +1,3 @@
+check_scheduled_transactions:
+  cron: "*/5 * * * *" # Every 5 minutes
+  class: "ScheduledTransactionCheckerJob"
